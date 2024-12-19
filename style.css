@@ -77,7 +77,7 @@
         height: 146px;
         margin: 0px 152px;
         border-radius: 10px;
-        background-image: url(./assets/renu.jpg);
+        background-image: url(./renu.jpg);
         background-size: contain;
         background-repeat: no-repeat;
     }
@@ -91,3 +91,4 @@
         font-size: 9px;
     }
 }
+
