@@ -6,7 +6,7 @@
     border: 2px solid rgb(186, 27, 204);
     border-radius: 10px;
     /* align-items: center; */
-    background-image: url(./3d-rendering-birthday-banner/8107862.jpg);
+    background-image: url(./8107862.jpg);
     background-size:contain;
     background-repeat: no-repeat;
     justify-content: center;
@@ -41,7 +41,7 @@
     height: 280px;
     margin: 0px 324px;
     border-radius: 10px;
-    background-image: url(./assets/renu.jpg);
+    background-image: url(./renu.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     
