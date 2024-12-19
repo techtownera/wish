@@ -1,0 +1,91 @@
+.container{
+    height: 599px;
+    width: 868px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(186, 27, 204);
+    border-radius: 10px;
+    /* align-items: center; */
+    background-image: url(./3d-rendering-birthday-banner/8107862.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    justify-content: center;
+    margin:20px auto;
+    font-size: 22px;
+    color: rgb(155, 79, 127);
+    
+}
+
+.text{
+   
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 334px;
+    width: 300px;
+}
+
+.wish{
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+
+}
+
+#renu{
+   
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #932f90;
+    width: 210px;
+    height: 280px;
+    margin: 0px 324px;
+    border-radius: 10px;
+    background-image: url(./assets/renu.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+.btn{
+    color: #932f90;
+    background-color: rgb(255, 254, 252);
+    font-size: 15px;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px;
+    width: 155px;
+    height: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 365px;
+        height: 253px;
+    }
+
+    #renu {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #932f90;
+        width: 107px;
+        height: 146px;
+        margin: 0px 152px;
+        border-radius: 10px;
+        background-image: url(./assets/renu.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .text {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: flex;
+        flex-direction: column;
+        margin: 0px 119px;
+        width: 300px;
+        font-size: 9px;
+    }
+}
